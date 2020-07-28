@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CounterActivity">
+    tools:context=".SkorActivity">
 
     <Button
         android:id="@+id/btn_score_one_tim_a"
@@ -67,7 +67,7 @@
 
 
     <Button
-        android:id="@+id/btn_reset_score_time_a"
+        android:id="@+id/btn_reset_score_tim_a"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -76,14 +76,16 @@
         android:text="Reset Score Tim A"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tv_score_tim_a" />
+        app:layout_constraintTop_toBottomOf="@id/tv_score_tim_a"
+        android:onClick="counter"/>
 
 
     <Button
-        android:id="@+id/btn_reset_score_time_b"
+        android:id="@+id/btn_reset_score_tim_b"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
+        android:onClick="counter"
         android:paddingStart="24dp"
         android:paddingEnd="24dp"
         android:text="Reset Score Tim B"

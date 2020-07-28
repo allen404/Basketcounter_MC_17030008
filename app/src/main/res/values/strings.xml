@@ -1,3 +1,5 @@
 <resources>
+    <string name="string_tim_a">Tim A</string>
+    <string name="string_tim_b">Tim B</string>
     <string name="app_name">MC_BasketCounter</string>
 </resources>
